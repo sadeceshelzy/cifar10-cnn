@@ -1,0 +1,18 @@
+Test Dogrulugu (Accuracy): 0.8659
+
+              precision    recall  f1-score   support
+
+        ucak       0.86      0.89      0.88      1000
+    otomobil       0.92      0.94      0.93      1000
+         kus       0.87      0.82      0.84      1000
+        kedi       0.78      0.70      0.74      1000
+       geyik       0.81      0.86      0.83      1000
+       kopek       0.81      0.81      0.81      1000
+     kurbaga       0.88      0.92      0.90      1000
+          at       0.88      0.88      0.88      1000
+        gemi       0.92      0.92      0.92      1000
+      kamyon       0.93      0.91      0.92      1000
+
+    accuracy                           0.87     10000
+   macro avg       0.87      0.87      0.87     10000
+weighted avg       0.87      0.87      0.87     10000

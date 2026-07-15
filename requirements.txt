@@ -1,0 +1,13 @@
+# Görüntü Sınıflandırma Projesi - Gerekli Python Kütüphaneleri
+# Kurulum:  pip install -r requirements.txt
+
+# Not: TensorFlow için Python 3.11 veya 3.12 kullanın (3.13 henüz tam desteklenmiyor).
+# ">=" işareti "en az bu sürüm, daha yenisi olabilir" anlamına gelir.
+
+tensorflow>=2.16          # Derin öğrenme / CNN modeli
+numpy>=1.26,<2.0          # Sayısal işlemler (TF ile uyum için 2.0 altı önerilir)
+matplotlib>=3.8           # Grafikler (eğitim eğrileri, confusion matrix)
+scikit-learn>=1.4         # Değerlendirme metrikleri (classification report, confusion matrix)
+seaborn>=0.13            # Confusion matrix görselleştirme
+Pillow>=10.0             # Görüntü okuma/işleme
+streamlit>=1.34          # Web arayüzü
